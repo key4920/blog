@@ -25,6 +25,8 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
+cd ..
+
 # anyblogname 업데이트
 git add .
 
