@@ -113,23 +113,29 @@ menu:
           weight: -100
           pre: home
 
-        - identifier: about
-          name: About
-          url: about
-          weight: -90
-          pre: user
+        #- identifier: about
+        #  name: About
+        #  url: about
+        #  weight: -90
+        #  pre: user
 
         - identifier: archives
           name: Archives
           url: archives
-          weight: -70
+          weight: -90
           pre: archives
 
         - identifier: bigdata-platform
           name: BigData Platform
           url: /categories/bigdata-platform/
-          weight: -60
+          weight: -70
           pre: affiliate
+
+        - identifier: hugo
+          name: Hugo
+          url: /categories/hugo-blog/
+          weight: -60
+          pre: blockquote
 
         - identifier: search
           name: Search
@@ -148,7 +154,7 @@ related:
           weight: 100
 
         - name: categories
-          weight: 120
+          weight: 100
 
 
 

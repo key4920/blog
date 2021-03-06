@@ -39,7 +39,7 @@ image = "hugo_background3.png"
 
 자 이제 생성을 시작해보자!
 
-# STEP1. Hugo 설치
+## STEP1. Hugo 설치
 
 나는 맥북이므로 brew를 활용하여 설치하였다.
 
@@ -54,7 +54,7 @@ $ hugo version
 
 윈도우이거나 brew 이외의 설치 방법은 Hugo 공식 사이트인  [https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/) 나 하단 Reference의 블로그들을 참고해 주시길 바란다.
 
-# STEP2. Hugo 블로그 폴더 생성
+## STEP2. Hugo 블로그 폴더 생성
 
 사실 용어는 잘 모르겠다.ㅎㅎ   
 
@@ -88,7 +88,7 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 
 ![blog_structure](blog_structure.png)
 
-# STEP3. 테마 추가하기
+## STEP3. 테마 추가하기
 
 [Complete List](https://themes.gohugo.io)
 
@@ -99,7 +99,7 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 - 선택 이유 및 후기 :
     - 그냥 내가 파란색 보라색 이런 색을 좋아한다.
     - 고르고보니 다크모드도 지원된다. 감사하다!
-    - Hugo 버전이 **최신 버전(Hugo ≥ 0.78.0.)**이어야 했어서 upgrade 해줬다.
+    - Hugo 버전이 **최신 버전(Hugo ≥ 0.78.0.)** 이어야 했어서 upgrade 해줬다.
 
 ```bash
 ## 버전 확인 ; 0.78.0 이상이 아니라면 upgrade 필요하다.
@@ -127,7 +127,7 @@ $ git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/stac
 
 뒤에 할 터이니 우선 다음 step으로 넘어가자!    
 
-# STEP4. Github 저장소 생성
+## STEP4. Github 저장소 생성
 
 [https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/)  
 
@@ -138,9 +138,9 @@ Github 저장소 2개를 생성 해야 한다.
 
 사실 뭔소린지 잘 모른다. 내가 아는 것은 **2개를 생성**해야하고, 2번인 웹사이트를 담을 저장소는 이름을 <USERNAME>github.io 로 지어야 한다는 것이다.  
 
-< **나의 첫번째 뻘짓 >** 
-저 <USERNAME>이어야 한다는 것을 무시하고, 내 마음대로 지어보려 했다가 자꾸 에러가 났었다. 그런데 반드시 **본인의 github id로** 생성해 주어야한다. 
-바꿀 수 있는 것 같지만, 나중에 시간이 남으면 시도해보도록하고, 패스한다.   
+**< 나의 첫번째 뻘짓 >**  
+2번 저장소의 USERNAME 부분이 내 id 이어야 한다는 것을 무시하고, 내 마음대로 지어보려 했다가 자꾸 에러가 났었다.  
+반드시 본인의 **github id**로 생성해 주어야한다. 바꿀 수 있는 것 같지만, 나중에 시간이 남으면 시도해 보도록하고, 패스한다.   
 
 ![blog_repository](blog_repository.png)
 
@@ -171,7 +171,7 @@ $ git submodule add -b master git@github.com:key4920/key4920.github.io.git publi
 
 ![github_addr](github_addr.png)
 
-# STEP5. 예시 사이트 보기
+## STEP5. 예시 사이트 보기
 
 아까 언급했듯이, 막상 글을 쓰려니 어떻게 해야하는지 막막했다.   
 
@@ -210,7 +210,7 @@ $ hugo server -D
 
 앞의 [http://localhost:1313/](http://localhost:1313/) 에서 결과가 맘에 들면 git 업로드 해줘야 실제 내 블로그에 적용된다.  
 
-# STEP6. 사이트에 글 업로드
+## STEP6. 사이트에 글 업로드
 
 blog 폴더에 들어가서 'deploy.sh' 파일을 하나 생성하고 파일 안에 아래 내용을 복붙해서 저장해준다.  
 
