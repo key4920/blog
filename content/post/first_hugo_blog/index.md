@@ -90,9 +90,9 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 
 ## STEP3. 테마 추가하기
 
-[Complete List](https://themes.gohugo.io)
+hugo theme 사이트 : [themes.gohugo.io](https://themes.gohugo.io)  
 
-나는 무지랭이이므로 다른 분들이 이쁘게 만들어주신 테마를 사용할 것이다.  
+나는 무지랭이이므로 다른 분들이 이쁘게 만들어주신 테마를 사용할 것이다.ㅎㅎ  
 
 **내가 선택한 테마 :**  [https://themes.gohugo.io/hugo-theme-stack/](https://themes.gohugo.io/hugo-theme-stack/)    
 
