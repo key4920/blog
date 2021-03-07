@@ -3,7 +3,7 @@ title = "Mac OS에 하둡(Hadoop) 설치"
 description = "맥북 Mac OS에 Hadoop을 설치해보자!"
 date = "2021-02-27"
 categories = ["BigData Platform", "Hadoop"]
-tags = ["Hadoop" ,"하둡" , "Mac OS" ]
+tags = ["Hadoop" , "Mac OS" ]
 image = "hadoop_background4.jpg"
 +++
 

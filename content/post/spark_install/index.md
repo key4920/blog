@@ -3,7 +3,7 @@ title = "Mac OS에 스파크3 설치 및 pyspark 시작"
 description = "맥북 Mac OS에 Spark를 설치해보고 주피터 노트북에서 pyspark를 실행해보자!"
 date = "2021-02-14"
 categories = ["BigData Platform","Apache Spark"]
-tags = ["Spark" ,"스파크" , "Mac OS" ]
+tags = ["Spark"  , "Mac OS" ]
 image = "spark_background.jpg"
 +++
 
