@@ -136,9 +136,7 @@ Github 저장소 2개를 생성 해야 한다.
 2번 저장소의 USERNAME 부분이 내 id 이어야 한다는 것을 무시하고, 내 마음대로 지어보려 했다가 자꾸 에러가 났었다.  
 반드시 본인의 **github id**로 생성해 주어야한다. 바꿀 수 있는 것 같지만, 나중에 시간이 남으면 시도해 보도록하고, 패스한다.   
 
-![blog_repository](blog_repository.png)
-
-![github_repository](github_repository.png)
+![repository](repositories.png)
 
 
 두개 모두 이미 가지고 있으므로 already exists라고 뜨지만 그냥 저렇게 생성해주면 된다.  
