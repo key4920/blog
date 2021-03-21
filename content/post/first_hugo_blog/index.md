@@ -18,7 +18,7 @@ image = "hugo_background3.png"
 
 # Hugo란?
 
-: Go 언어로 쓰여진 **'정적 웹사이트 생성기'(Static site generator)**라고 한다.   
+: Go 언어로 쓰여진 **'정적 웹사이트 생성기'(Static site generator)** 라고 한다.   
 
 **Go 언어란? :** 구글에서 발표한 언어로, 파이썬 같은 스크립트 언어가 아닌 **컴파일 언어**이다.  
 
@@ -57,7 +57,6 @@ $ hugo version
 ## STEP2. Hugo 블로그 폴더 생성
 
 사실 용어는 잘 모르겠다.ㅎㅎ   
-
 그냥 쉽게 생각하면 앞으로 블로그에 올라갈 콘텐츠들이나 테마 등 모든 것이 담기는 폴더라고 생각하면 된다.   
 
 ```bash
@@ -88,14 +87,13 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 
 ![blog_structure](blog_structure.png)
 
+
+
 ## STEP3. 테마 추가하기
 
-hugo theme 사이트 : [themes.gohugo.io](https://themes.gohugo.io)  
-
 나는 무지랭이이므로 다른 분들이 이쁘게 만들어주신 테마를 사용할 것이다.ㅎㅎ  
-
+**hugo theme 사이트 :** [themes.gohugo.io](https://themes.gohugo.io)  
 **내가 선택한 테마 :**  [https://themes.gohugo.io/hugo-theme-stack/](https://themes.gohugo.io/hugo-theme-stack/)    
-
 - 선택 이유 및 후기 :
     - 그냥 내가 파란색 보라색 이런 색을 좋아한다.
     - 고르고보니 다크모드도 지원된다. 감사하다!
@@ -109,9 +107,8 @@ $ hugo version
 $ brew upgrade hugo 
 ```
 
-이제 내가 고른 테마를 다운 받자!
-
-저 테마의 github ; [https://github.com/CaiJimmy/hugo-theme-stack.git](https://github.com/CaiJimmy/hugo-theme-stack.git)   
+이제 내가 고른 테마를 다운 받자!  
+--> 저 테마의 github : [https://github.com/CaiJimmy/hugo-theme-stack.git](https://github.com/CaiJimmy/hugo-theme-stack.git)   
 
 ```bash
 ## 우선, STEP2에서 만든 blog 경로로 들어가자
@@ -121,10 +118,8 @@ $ cd blog
 $ git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/stack
 ```
 
-이제 아까 blog 폴더 내에 themes에 들어가보면 'stack' 폴더가 생긴 것을 볼 수 있다.
-
+이제 아까 blog 폴더 내에 themes에 들어가보면 'stack' 폴더가 생긴 것을 볼 수 있다.  
 그 다음, 보통 글을 한개를 써서 올려보라는데 사실 나는 어떻게 해야하는지 감이 없어서 애를 먹었더랬다.   
-
 뒤에 할 터이니 우선 다음 step으로 넘어가자!    
 
 ## STEP4. Github 저장소 생성
@@ -132,7 +127,6 @@ $ git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/stac
 [https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/)  
 
 Github 저장소 2개를 생성 해야 한다.  
-
 1. 하나는 블로그 컨텐츠 저장소 생성 (blog)  
 2. 다른 하나는 렌더링된 웹사이트를 담을 저장소 (key4920.github.io)  
 
@@ -147,10 +141,8 @@ Github 저장소 2개를 생성 해야 한다.
 ![github_repository](github_repository.png)
 
 
-두개 모두 이미 가지고 있으므로 already exists라고 뜨지만 그냥 저렇게 생성해주면 된다.
-
+두개 모두 이미 가지고 있으므로 already exists라고 뜨지만 그냥 저렇게 생성해주면 된다.  
 1번 저장소인 'blog'를 내가 처음에 만들었던 'blog' 폴더랑 연동 해 주고   
-
 2번 저장소인 'key4920.github.io'를 submodule로 등록 해 준다.
 
 ```bash
@@ -163,7 +155,7 @@ $ git remote add origin https://github.com/key4920/blog.git
 $ git submodule add -b master git@github.com:key4920/key4920.github.io.git public
 ```
 
-< **나의 두번째 뻘짓 >** 
+**<나의 두번째 뻘짓 >** 
 1. blog remote할 때 Permission denied (publickey).에러가 났다. 
 - 잘 모르지만 github 주소를 'https' 'ssh' 중에 **'https' 주소**로 하니 됐고
 2. [key4920.github.io](http://key4920.github.io) submodule 할 때는 Unable to checkout submodule ‘public’ 에러가 났다.
@@ -174,11 +166,8 @@ $ git submodule add -b master git@github.com:key4920/key4920.github.io.git publi
 ## STEP5. 예시 사이트 보기
 
 아까 언급했듯이, 막상 글을 쓰려니 어떻게 해야하는지 막막했다.   
-
 그런데 보통 themes/stack 폴더 내에 들어가보면 'exampleSite' 폴더가 있다.   
-
 'exampleSite' 폴더 안에 있는 모든 폴더 및 파일들을 복사해서 blog 폴더 안에 덮어쓰기 해준다.  
-
 - 이때 내가 고른 테마의 exampleSite 안에는 'config.yaml' 파일이 있는데  
 이건 기본적으로 생성 돼 있던 'config.toml' 파일과 동일한 것이지만 파일 확장자가 달라서 '덮어쓰기'가 안됐으므로 'config.toml' 파일은 삭제 해 줬다.
 
@@ -187,27 +176,19 @@ $ hugo server -D
 ```
 
 입력해주면 아래와 같은 문구와 함께 [http://localhost:1313/](http://localhost:1313/) 에 접속하라고 뜨는데, 이 url은 내 사이트를 build하기 전 예시로 보여주는 기능이다.   
-
 웹에 이 url을 복붙해서 들어가면 현재 내 blog의 예시 사이트를 볼 수 있다.
 
 ![local_host](local_host.png)
 
 나 같은 초보자들은 이제 exampleSite에서 복붙했던 content 내의 예시 글들을 참고해서 blog 내의 구조를 익히면 된다.  
-
 내가 고른 테마 같은 경우엔, 블로그에 올라가는 일반적인 글 경로는 blog/content/post/콘텐츠이름 에 있었다.
 
 **< 나의 세번째 뻘짓 >**  
-이건 내가 썼던 'stack' 테마에 한정된 이야기 이지만, 'config.yaml' 안에  dateFormat 이 있었는데  
-    # dateFormat :   
-        # published :  
-        # lastUpdated :   
-모두 #를 앞에 붙여서 주석처리 해 주었다. 이게 있으니 자꾸 콘텐츠의 글의 날짜가 이상한 형식으로 보였다.  
+이건 내가 썼던 'stack' 테마에 한정된 이야기 이지만, 'config.yaml' 안에  dateFormat 이 있었는데 모두 #를 앞에 붙여서 주석처리 해 주었다. 이게 있으니 자꾸 콘텐츠의 글의 날짜가 이상한 형식으로 보였다.  
 더이상 지원하지 않는다고하니 주석처리 해주거나 지워준다.  
 
 여태까지는 blog 폴더 안에 어느 형식으로 어떤 구조로 콘텐츠를 넣으면 어떻게 보이는지를 살펴보았다.
-
 하지만, 실제 내 블로그 url인 [key4920.github.io](http://key4920.github.io) 를 입력해서 들어가도 사이트가 build 된 상태가 아니다.   
-
 앞의 [http://localhost:1313/](http://localhost:1313/) 에서 결과가 맘에 들면 git 업로드 해줘야 실제 내 블로그에 적용된다.  
 
 ## STEP6. 사이트에 글 업로드
@@ -218,7 +199,6 @@ blog 폴더에 들어가서 'deploy.sh' 파일을 하나 생성하고 파일 안
 
 ```bash
 #!/bin/sh
-
 # If a command fails then the deploy stops
 set -e
 
@@ -307,12 +287,11 @@ $ ./deploy.sh "commit message"
 
 앞으로 다른 글에서 다뤄보도록 하겠다.  
 
+---
+
 ## Reference
 
-[https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/)
-
-[https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
-
-[https://github.com/Integerous/Integerous.github.io](https://github.com/Integerous/Integerous.github.io)
-
-[https://hoontaeklee.github.io/20191229_blogging_with_hugo/#2-unable-to-checkout-submodule-public](https://hoontaeklee.github.io/20191229_blogging_with_hugo/#2-unable-to-checkout-submodule-public)
+[https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/)  
+[https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/)  
+[https://github.com/Integerous/Integerous.github.io](https://github.com/Integerous/Integerous.github.io)  
+[https://hoontaeklee.github.io/20191229_blogging_with_hugo/#2-unable-to-checkout-submodule-public](https://hoontaeklee.github.io/20191229_blogging_with_hugo/#2-unable-to-checkout-submodule-public)  
