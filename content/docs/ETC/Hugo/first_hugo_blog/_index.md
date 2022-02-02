@@ -111,6 +111,7 @@ $ brew upgrade hugo
 $ cd blog
 
 ## 테마 다운로드
+$ git init
 $ git submodule add https://github.com/alex-shpak/hugo-book.git themes/book
 ```
 
@@ -146,7 +147,7 @@ cd blog
 ## git 연동
 $ git init
 $ git remote add origin https://github.com/key4920/blog.git
-$ git submodule add -b master git@github.com:key4920/key4920.github.io.git public
+$ git submodule add -b main git@github.com:key4920/key4920.github.io.git public
 ```
 
 **<나의 두번째 뻘짓 >** 
@@ -210,7 +211,7 @@ if [ -n "$*" ]; then
 fi
 git commit -m "$msg"
 # Push source and build repos.
-git push origin master
+git push origin main
 cd ..
 # anyblogname 업데이트
 git add .
@@ -219,7 +220,7 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -m "$msg"
-git push origin master
+git push origin main
 ```
 
 원래는 이 파일 안에 한줄 한줄을 터미널에서 매번 실행 해 주어야하지만, 귀찮으므로 이런 파일을 만들고 파일만 실행하면 안의 코드가 실행되게 하는 원리이다.  
