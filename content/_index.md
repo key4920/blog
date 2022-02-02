@@ -8,7 +8,7 @@ license = "key4920"
 
 <!--more-->
 
-# About
+# 202 Blue Note
 내가 보려고 만든 블로그
 
 
