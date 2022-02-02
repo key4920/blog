@@ -14,9 +14,9 @@ license = "key4920"
 
 ## Content <span class="nowrap"><span class="emojify">🌼</span> </span> 
 
-<span class="nowrap"><span class="emojify">🐥</span> <code>[Apache-Spark](http://key4920.github.io/docs/bigdata_platform/ApacheSpark)</code></span> 
+<span class="nowrap"><span class="emojify">🐥</span> <code>[Apache-Spark](http://key4920.github.io/categories/Apache-Spark/)</code></span> 
 
-<span class="nowrap"><span class="emojify">🐘</span> <code>[Hadoop](http://key4920.github.io//docs/bigdata_platform/Hadoop)</code></span> 
+<span class="nowrap"><span class="emojify">🐘</span> <code>[Hadoop](http://key4920.github.io/categories/Hadoop/)</code></span> 
 
 ## Upcomming <span class="nowrap"><span class="emojify">🌸</span> </span> 
 

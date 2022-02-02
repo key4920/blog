@@ -2,8 +2,8 @@
 headless: true
 ---
 
-**Bigdata Platform** ({{< relref "/docs/bigdata_platform" >}})
-- [ApacheSpark]({{< relref "/docs/bigdata_platform/ApacheSpark" >}})
+**Bigdata Platform** 
+- [ApacheSpark]({{< relref "/categories/Apache-Spark/" >}})
   - [spark_install]({{< relref "/docs/bigdata_platform/ApacheSpark/spark_install" >}})
 - [Hadoop]({{< relref "/docs/bigdata_platform/Hadoop" >}})
   - [hadoop_install]({{< relref "/docs/bigdata_platform/Hadoop/hadoop_install" >}})

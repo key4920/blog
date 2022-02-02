@@ -1,8 +1,6 @@
 ---
 weight: 1
-#bookCollapseSection: true
 bookFlatSection: true
+#bookCollapseSection: true
 title: "BigData Platform"
 ---
-
-# BigData Platform

@@ -4,7 +4,6 @@ description: "맥북 Mac OS에 Spark를 설치해보고 주피터 노트북에�
 date: "February 14, 2021"
 categories: ["BigData Platform","Apache Spark"]
 tags: ["Spark"  , "Mac OS" ]
-image: "spark_background.jpg"
 ---
 
 
