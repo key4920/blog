@@ -10,10 +10,9 @@ tags = ["Hadoop" , "Mac OS" ]
 
 <!--more-->
 
+# Mac OS에 하둡(Hadoop) 설치
 
-
-
-### 설치 환경
+설치 환경
 
 > **OS** : MacOS Catalina 10.15.7  
 **Hadoop** : 3.3.0

@@ -8,6 +8,7 @@ tags: ["Spark"  , "Mac OS" ]
 
 
 <!--more-->
+# Mac OS에 스파크3 설치 및 pyspark 시작
 
 설치 환경
 

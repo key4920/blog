@@ -9,8 +9,9 @@ tags = ["Hugo" , "Mac OS" ]
 
 <!--more-->
 
+# 초보자 Hugo 블로그 구축기
 
-## 구축 환경
+구축 환경
 
 > **OS** : MacOS Catalina 10.15.7
 
