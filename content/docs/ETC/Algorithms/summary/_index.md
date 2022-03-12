@@ -31,8 +31,8 @@ tags = ["Algorithms" , "Python" ]
 2.  전체적으로 파이썬 알고리즘 인터뷰 책을 따라 학습하며  
     (1) 개념 정리 (2) 실습 2가지로 정리한다.
     - 실습 : LeetCode 총 95문제를 풀이
-    - [문제풀이 유튜브](https://www.youtube.com/playlist?list=PL1iR1v6eNy5OO01XbQ1djo4P6gNG78wYH)
-    - [깃허브 소스코드](https://github.com/onlybooks/algorithm-interview)
+    - [책 문제풀이 유튜브](https://www.youtube.com/playlist?list=PL1iR1v6eNy5OO01XbQ1djo4P6gNG78wYH)
+    - [책 깃허브 소스코드](https://github.com/onlybooks/algorithm-interview)
 
 ## 참고
 
