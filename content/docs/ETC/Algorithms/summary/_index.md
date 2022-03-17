@@ -3,6 +3,7 @@ title = "알고리즘 공부 방향성"
 date = "2022-03-11"
 categories = ["Algorithms"]
 tags = ["Algorithms" , "Python" ]
+weight= 2
 +++
 
 # 알고리즘 공부 방향성
