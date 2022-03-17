@@ -9,16 +9,19 @@ license = "key4920"
 <!--more-->
 
 # 202 블루노트
+
 내 관심사를 흐르는대로 기록하는 노트
 
+## Content <span class="nowrap"><span class="emojify">🌼</span> </span>
 
-## Content <span class="nowrap"><span class="emojify">🌼</span> </span> 
+<span class="nowrap"><span class="emojify">🐥</span> <code>[Apache-Spark](http://key4920.github.io/categories/Apache-Spark/)</code></span>
 
-<span class="nowrap"><span class="emojify">🐥</span> <code>[Apache-Spark](http://key4920.github.io/categories/Apache-Spark/)</code></span> 
+<span class="nowrap"><span class="emojify">🐘</span> <code>[Hadoop](http://key4920.github.io/categories/Hadoop/)</code></span>
 
-<span class="nowrap"><span class="emojify">🐘</span> <code>[Hadoop](http://key4920.github.io/categories/Hadoop/)</code></span> 
+<span class="nowrap"><span class="emojify">💪🏼</span> <code>[Algorithms](http://key4920.github.io/categories/ETC/Algorithms/)</code></span>
 
-## Upcomming <span class="nowrap"><span class="emojify">🌸</span> </span> 
+<span class="nowrap"><span class="emojify">🐹</span> <code>[Hugo 블로그](http://key4920.github.io/categories/ETC/Hugo/)</code></span>
 
-<span class="nowrap"><span class="emojify">🐳</span> <code>Go</code></span> 
+## Upcomming <span class="nowrap"><span class="emojify">🌸</span> </span>
 
+<span class="nowrap"><span class="emojify">🐳</span> <code>Go</code></span>
