@@ -18,9 +18,9 @@ license = "key4920"
 
 <span class="nowrap"><span class="emojify">🐘</span> <code>[Hadoop](http://key4920.github.io/categories/Hadoop/)</code></span>
 
-<span class="nowrap"><span class="emojify">💪🏼</span> <code>[Algorithms](http://key4920.github.io/categories/ETC/Algorithms/)</code></span>
+<span class="nowrap"><span class="emojify">💪🏼</span> <code>[Algorithms](http://key4920.github.io/categories/Algorithms/)</code></span>
 
-<span class="nowrap"><span class="emojify">🐹</span> <code>[Hugo 블로그](http://key4920.github.io/categories/ETC/Hugo/)</code></span>
+<span class="nowrap"><span class="emojify">🐹</span> <code>[Hugo 블로그](http://key4920.github.io/categories/Hugo-Blog/)</code></span>
 
 ## Upcomming <span class="nowrap"><span class="emojify">🌸</span> </span>
 
