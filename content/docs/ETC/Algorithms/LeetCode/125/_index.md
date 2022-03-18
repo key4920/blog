@@ -149,7 +149,7 @@ class Solution(object):
 - 팰린드롬 판별 3가지
   (1) list 의 pop() (2) deque 의 popleft() (3) list의 슬라이싱
 - 위의 방법을 조합하여 총 3가지 방법 소개
-  - 방법 1 : 방법 1 : list + isalnum() + pop()
+  - 방법 1 : list + isalnum() + pop()
   - 방법 2 : deque + isalnum() + popleft()
   - 방법 3 : re + list 슬라이싱
 
