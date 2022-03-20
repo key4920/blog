@@ -137,7 +137,7 @@ class Solution(object):
 
 **[ 반성 ]**
 
-- 굳이 index, join()해서 string으로 변환할 필요 X, list 그대로 sort 가능
+- 굳이 index, join()해서 string으로 변환할 필요 없음, list 그대로 sort 가능
 
 ```python
 ## 굳이 index, join()해서 string으로 변환할 필요 X, list 그대로 sort 가능하다
@@ -174,5 +174,5 @@ class Solution(object):
                 letter_logs.append(log)
 
         letter_logs.sort(key = lambda x : (x.split(' ')[1:], x.split(' ')[0]))
-        return letter_logs + digit_logs방법 2 : Pythonic 방법, reverse() 활용
+        return letter_logs + digit_logs
 ```
