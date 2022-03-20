@@ -5,7 +5,6 @@ theme: book
 #paginate: 5
 title: 202 Blue Note
 
-
 # Change it to your Disqus shortname before using
 # disqusShortname: 내가 보려고 만든 기술 블로그
 
@@ -24,7 +23,6 @@ markup:
   tableOfContents:
     startLevel: 1
 
-
 # Multi-lingual mode config
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
@@ -36,10 +34,10 @@ languages:
     weight: 1
 
 menu:
-  #before: 
-    #- name: "Home"
-    #  url: "/"
-    #  weight: 0
+  #before:
+  #- name: "Home"
+  #  url: "/"
+  #  weight: 0
   after:
     - name: "Github"
       url: "https://github.com/key4920"
