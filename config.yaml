@@ -1,3 +1,7 @@
+# GA Tracking ID
+googleAnalytics: G-171H0QN55T #"GA-308387641" #UA-189742603-1
+enableRobotsTXT: true
+
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 baseurl: https://key4920.github.io
 languageCode: en-us
@@ -6,11 +10,7 @@ theme: book
 title: 202 Blue Note
 
 # Change it to your Disqus shortname before using
-# disqusShortname: 내가 보려고 만든 기술 블로그
-
-# GA Tracking ID
-googleAnalytics: GA-308387641 #UA-189742603-1
-enableRobotsTXT: true
+disqusShortname: "내가 보려고 만든 기술 블로그"
 
 # Book configuration
 disablePathToLower: true
