@@ -9,7 +9,7 @@ title: 202 Blue Note
 # disqusShortname: 내가 보려고 만든 기술 블로그
 
 # GA Tracking ID
-googleAnalytics: GA-308387641 #UA-189742603-1
+googleAnalytics: UA-189742603-1 #GA-308387641
 
 # Book configuration
 disablePathToLower: true
