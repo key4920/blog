@@ -115,3 +115,8 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   # BookTranslatedOnly: false
+
+  sitemap:
+    changefreq: "daily"
+    filename: "sitemap.xml"
+    priority: 0.5
