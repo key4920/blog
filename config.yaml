@@ -10,7 +10,7 @@ theme: book
 title: 202 Blue Note
 
 # Change it to your Disqus shortname before using
-disqusShortname: "내가 보려고 만든 기술 블로그"
+# disqusShortname: "내가 보려고 만든 기술 블로그"
 
 # Book configuration
 disablePathToLower: true
@@ -33,6 +33,11 @@ languages:
     languageName: Korean
     contentDir: content
     weight: 1
+
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  priority: 0.5
 
 menu:
   #before:
@@ -115,8 +120,3 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   # BookTranslatedOnly: false
-
-  sitemap:
-    changefreq: "daily"
-    filename: "sitemap.xml"
-    priority: 0.5
